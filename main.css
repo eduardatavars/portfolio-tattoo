@@ -124,6 +124,13 @@ header img {
     border-color: #640100;
 }
 
+.img-tattoo img:hover {
+    transform: scale(1.1);
+    transition: 0.9s;
+    box-shadow: 3px 2px 5px #F0D396;
+    cursor: pointer;
+}
+
 @media (max-width: 767px) {
     #sobre {
         background-image: url(./img/sobre-1.jpg);
