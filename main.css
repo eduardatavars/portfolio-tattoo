@@ -1,0 +1,159 @@
+body {
+    font-family: 'Lora', serif;
+    background-image: url(./img/background.png);
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    color: #F0D396;
+}
+
+.navbar-brand:hover {
+    color: #F0D396;
+}
+
+.navbar-toggler {
+    background-color: #640100;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #640100;
+    color: #F0D396;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #640100;
+    color: #F0D396;
+    border-color: #640100;
+}
+
+.nav-tabs .nav-link {
+    color: #640100;
+}
+
+.nav-tabs {
+    border-color: #640100;
+}
+
+#cabecalho .nav .nav-link {
+    color: #F0D396;
+}
+
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+}
+
+#sobre {
+    background-image: url(./img/sobre-1.jpg);
+}
+
+.sobre {
+    text-align: center;
+}
+
+.sobre h2 {
+    color: #F0D396;
+}
+
+.sobre p {
+    color: #fff;
+}
+
+.btn-sobre {
+    margin: 15px;
+}
+
+#pinturas .border-container,
+#tattoo .border-container {
+    width: 20%;
+    margin: 0 auto; 
+}
+
+#pinturas h2,
+#tattoo h2 {
+    border-top: 5px solid #640100;
+}
+
+.pintura-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-pinturas img:hover {
+    transform: scale(1.1);
+    transition: 0.9s;
+    box-shadow: 3px 2px 5px #F0D396;
+    cursor: pointer;
+}
+
+.sm {
+    display: none;
+}
+
+.md {
+    display: flex;
+}
+
+.tattoo-img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    #sobre {
+        background-image: url(./img/sobre-1.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .sobre {
+        background-color: #640100;
+        border-radius: 1%;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    #pinturas .border-container,
+    #tattoo .border-container {
+        width: 35%;
+        margin: 0 auto; 
+    }
+
+    .md {
+        display: none;
+    }
+
+    .sm {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .sm img:hover {
+        transform: scale(1.1);
+        transition: 1.0s;
+        cursor: pointer;
+    }
+
+    .tattoo-img {
+        max-height: 550px;
+    }
+}
+
