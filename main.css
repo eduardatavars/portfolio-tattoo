@@ -31,20 +31,6 @@ header img {
     color: #F0D396;
 }
 
-.nav-tabs .nav-link.active {
-    background-color: #640100;
-    color: #F0D396;
-    border-color: #640100;
-}
-
-.nav-tabs .nav-link {
-    color: #640100;
-}
-
-.nav-tabs {
-    border-color: #640100;
-}
-
 #cabecalho .nav .nav-link {
     color: #F0D396;
 }
@@ -116,6 +102,26 @@ header img {
     object-fit: cover;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #640100;
+    color: #F0D396;
+    border-color: #640100;
+}
+
+.nav-tabs .nav-link {
+    color: #640100;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #F0D396;
+    background-color: #F0D396;
+    color: #640100;
+}
+
+.nav-tabs {
+    border-color: #640100;
 }
 
 @media (max-width: 767px) {
