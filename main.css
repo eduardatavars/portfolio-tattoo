@@ -61,13 +61,15 @@ header img {
 }
 
 #pinturas .border-container,
-#tattoo .border-container {
+#tattoo .border-container,
+#contato .border-container {
     width: 20%;
     margin: 0 auto; 
 }
 
 #pinturas h2,
-#tattoo h2 {
+#tattoo h2,
+#contato h2 {
     border-top: 5px solid #640100;
 }
 
@@ -121,7 +123,8 @@ header img {
 }
 
 .nav-tabs {
-    border-color: #640100;
+    
+    border-bottom: 2px solid #640100;
 }
 
 .img-tattoo img:hover {
@@ -129,6 +132,32 @@ header img {
     transition: 0.9s;
     box-shadow: 3px 2px 5px #F0D396;
     cursor: pointer;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;   
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.text-colored {
+    color: #640100;
+}
+
+footer {
+    background-image: url(./img/footer.jpg);
+    padding: 1rem 0;
+    bottom: 0;
+    text-align: center;
+    color: #F0D396;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -145,7 +174,8 @@ header img {
     }
 
     #pinturas .border-container,
-    #tattoo .border-container {
+    #tattoo .border-container,
+    #contato .border-container {
         width: 35%;
         margin: 0 auto; 
     }
