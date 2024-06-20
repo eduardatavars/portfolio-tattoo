@@ -117,13 +117,12 @@ header img {
 }
 
 .nav-tabs .nav-link:hover {
-    border-color: #F0D396;
-    background-color: #F0D396;
-    color: #640100;
+    border-color: #640100;
+    background-color: #640100;
+    color: #F0D396;
 }
 
-.nav-tabs {
-    
+.nav-tabs {  
     border-bottom: 2px solid #640100;
 }
 
